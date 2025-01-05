@@ -1,0 +1,7 @@
+# application.properties in your GitHub repository
+spring.application.name=commandeetudacas1
+spring.cloud.config.server.git.uri=https://github.com/MarwaneFo/finaletudacas1.git
+spring.cloud.config.server.git.clone-on-start=true
+
+# Example custom configuration for your application
+mes-config-ms.commandes-last=10
